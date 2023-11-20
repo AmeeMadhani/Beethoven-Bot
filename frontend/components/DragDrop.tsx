@@ -25,14 +25,8 @@ function DragDrop() {
   }
 
   return (
-    <div className="rounded-lg bg-[#191717] p-3 mt-20 flex flex-col items-center justify-center">
-    {/* <Link href='Log.tsx'> <a><ArrowUpTrayIcon className="h-8 w-8 " /></a> </Link> */}
-    {/* <form>
-    <button type = "submit" onSubmit={handleButtonClick} className = "bg-[#CCC8AA] hover:opacity-50 text-black font-bold px-4 py-2 rounded disabled:cursor-not-allowed disabled:opacity-50">
-        <ArrowUpTrayIcon onClick={handleButtonClick} className="h-8 w-8 " />
-    </button>
-    </form> */}
-
+    <div className=" rounded-2xl bg-[#191717] p-3  flex flex-col items-center justify-center w-fit">
+   
     <ArrowUpTrayIcon onClick={handleButtonClick} className="h-8 w-8 " />
 
       <h3>Or Drag and Drop Below</h3>

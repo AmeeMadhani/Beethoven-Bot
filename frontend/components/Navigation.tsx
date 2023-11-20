@@ -8,16 +8,9 @@ import { FaGithub } from "react-icons/fa";
 function Navigation() {
 
     const menuItems = [
-        "Profile",
-        "Dashboard",
-        "Activity",
-        "Analytics",
-        "System",
-        "Deployments",
-        "My Settings",
-        "Team Settings",
-        "Help & Feedback",
-        "Log Out",
+        "Github",
+        "Documentation",
+        
       ];
     
       return (
@@ -27,13 +20,13 @@ function Navigation() {
           </NavbarContent>
           <NavbarContent className="sm:hidden pr-3" justify="center">
             <NavbarBrand>
-              <p className="font-bold text-inherit text-5xl " >Beethoven Bot</p>
+              <p className="sm:text-4xl font-bold text-inherit text-5xl" >Beethoven Bot</p>
             </NavbarBrand>
           </NavbarContent>
     
           <NavbarContent className="hidden sm:flex gap-4" justify="center">
             <NavbarBrand>
-              <p className="font-bold text-inherit">Beethoven Bot</p>
+              <p className="sm:text- font-bold text-inherit">Beethoven Bot</p>
             </NavbarBrand>
           </NavbarContent>
     

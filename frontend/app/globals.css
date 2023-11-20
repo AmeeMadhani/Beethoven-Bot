@@ -258,6 +258,16 @@ section {
 
 /* MEDIA QUERIES */
 
+@media (max-width: 600px) {
+  .grid.grid-rows-2.align-middle.items-center {
+    flex-direction: column-reverse; /* Reverse the flex direction for smaller screens */
+  }
+
+  .rounded-lg.bg-[#191717].p-3.mt-20.flex.flex-col.items-center.justify-center.mt-40 {
+    margin: 0 auto; /* Center the element horizontally */
+    width: 100%; /* Make the drag-and-drop area full width on smaller screens */
+  }
+}
 @media (max-width: 1010px) {
   .description {
     gap: 30px;

@@ -6,6 +6,7 @@ import {NextUIProvider} from '@nextui-org/react'
 export function Providers({children}: { children: React.ReactNode }) {
   return (
     <NextUIProvider>
+      <main className="light"></main>
       {children}
     </NextUIProvider>
   )

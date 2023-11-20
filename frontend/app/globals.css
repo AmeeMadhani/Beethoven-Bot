@@ -161,6 +161,7 @@ section {
   z-index: 5;
 }
 
+
 .card {
   display: grid;
   grid-template-columns: repeat(2, 1fr);

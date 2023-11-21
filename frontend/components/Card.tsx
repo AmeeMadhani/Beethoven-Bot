@@ -17,22 +17,22 @@ import { HiLightBulb } from "react-icons/hi";
 const list = [
   {
     img: <GoLaw style={{ color: '#EC4899',fontSize: '30px' }}/>,
-    title: "Banana",
+    title: "Step 1",
     price:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+      "Find a song that you think is plagiarized.",
   },
   {
     img: <IoFootsteps style={{ color: '#EC4899',fontSize: '30px' }} />,
-    title: "Banana",
+    title: "Step 2",
     price:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+      "Drag and drop the song into the box below.",
   },
   {
-    img: <HiLightBulb style={{ color: '#EC4899',fontSize: '40px' }} />,
+    img: <HiLightBulb style={{ color: '#EC4899',fontSize: '30px' }} />,
 
-    title: "Banana",
+    title: "Step 3",
     price:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+      "We will tell you if the song is plagiarized or not.",
   },
 ];
 
@@ -52,7 +52,7 @@ function Cards() {
             <div>{item.img}</div>
             <div className="flex flex-col">
               <p className="text-md">{item.title}</p>
-              <p className="text-small text-default-500">nextui.org</p>
+              {/* <p className="text-small text-default-500">nextui.org</p> */}
             </div>
           </CardHeader>
           <Divider />

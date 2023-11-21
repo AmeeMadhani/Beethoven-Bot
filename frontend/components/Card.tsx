@@ -8,22 +8,28 @@ import {
   Link,
   Image,
 } from "@nextui-org/react";
+import { GoLaw } from "react-icons/go";
+import { IoFootsteps } from "react-icons/io5";
+import { HiLightBulb } from "react-icons/hi";
+
+
 
 const list = [
   {
-    img: "/images/logo.png",
+    img: <GoLaw style={{ color: '#EC4899',fontSize: '30px' }}/>,
     title: "Banana",
     price:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
   },
   {
-    img: "/images/logo.png",
+    img: <IoFootsteps style={{ color: '#EC4899',fontSize: '30px' }} />,
     title: "Banana",
     price:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
   },
   {
-    img: "/images/logo.png",
+    img: <HiLightBulb style={{ color: '#EC4899',fontSize: '40px' }} />,
+
     title: "Banana",
     price:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
@@ -36,13 +42,14 @@ function Cards() {
       {list.map((item, index) => (
         <Card className="max-w-[400px] light" key={index} isBlurred>
           <CardHeader className="flex gap-3">
-            <Image
+            {/* <Image
               alt="nextui logo"
               height={40}
               radius="sm"
               src={item.img}
               width={40}
-            />
+            /> */}
+            <div>{item.img}</div>
             <div className="flex flex-col">
               <p className="text-md">{item.title}</p>
               <p className="text-small text-default-500">nextui.org</p>

@@ -24,12 +24,12 @@ export default function Home() {
           justifyContent: "center",
         }}
       >
-        <div className="grid grid-rows-2 align-middle items-center flex-col justify-items-center space-y-10 text-center">
+        <div className="grid grid-rows-2 align-middle items-center flex-col pb-20 justify-items-center space-y-10 text-center">
           <div className="">
-            <h1 className=" font-comfortaa sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-gray-500">
+            <h1 className="sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-gray-900">
               Beethoven Bot
             </h1>
-            <h3 className="text-xl sm:text-lg md:text-xl lg:text-2xl xl:text-3xl text-gray-400">
+            <h3 className="text-xl font-light  sm:text-lg md:text-xl lg:text-2xl xl:text-3xl text-gray-600">
               Detecting plagiarism in music using machine learning{" "}
             </h3>
           </div>
